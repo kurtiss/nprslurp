@@ -1,6 +1,21 @@
 nprslurp
 
 ===========
+INSTALLATION
+===========
+
+python setup.py install
+
+===========
+USE
+===========
+
+$ cd <download-dir>
+$ nprslurp <show>
+
+Currently, the only show supported is Piano Jazz, whose code is "pj". Happy listening. :)
+
+===========
 DEVELOPMENT
 ===========
 
