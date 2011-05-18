@@ -25,7 +25,7 @@ def nprslurp(show, working_dir=None):
     skips = 0
 
     if show == "pj":
-        date = get_latest_weekday(4)
+        date = get_latest_weekday(3)
         delta = datetime.timedelta(days = 7)
     else:
         raise RuntimeError("Unrecognized show: {0}".format(show))
